@@ -58,7 +58,7 @@ Tested: Nov 25, 2020; Passed on Firefox, Chrome, and Safari browsers.
 h1{
     font-family: helvetica,Arial, sans-serif;
     font-family: 'Indie Flower', cursive;
-    font-size:5em;
+    font-size:4em;
     margin:0;
     color: mediumpurple;
     line-height: 0.8;
@@ -70,7 +70,7 @@ h1{
 p
 {
     font-family: 'Schoolbell', cursive;
-    font-size: 18pt;;
+    font-size: 15pt;;
     line-height: 1.8;
 }
 
