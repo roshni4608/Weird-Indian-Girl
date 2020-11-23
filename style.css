@@ -390,7 +390,7 @@ align-content: center;
 
 /*********** Media Queries **************/
 
-@media only screen and (min-width:960px) and (max-width:1800px){
+@media only screen and (min-width:960px) and (max-width:1000px){
     #nav_menu { 
         /* hide desktop menu*/ 
         display:none;
