@@ -247,7 +247,7 @@ textarea
 .hvrbox img {
     width: 100%; /* width of container */
     margin:auto;
-    height: 500px; /* height of container */
+    height: 450px; /* height of container */
     object-fit: cover;
     object-position: center middle;
     opacity: 0.9;
