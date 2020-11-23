@@ -122,7 +122,6 @@ p
     object-position: top;
     border: 4px solid mediumpurple;
     border-radius: 20px;
-    margin-top:50px;
 }
 
 #imgpage3{
@@ -137,6 +136,8 @@ height:500px;
 
 table{
     margin-top:50px;
+    display:block;
+    width:100%;
 }
 th{
     font-family: 'Schoolbell', cursive;
@@ -399,6 +400,26 @@ align-content: center;
          /* show mobile menu*/ 
         display:block;
     }
+      .pageblock{
+        align-content: center;
+        padding:0;
+        margin-right:0;
+    }
+    .pageblock2{
+        align-content: center;
+        padding:0;
+    }
+    .pagedescription{
+        width:100%;
+         text-align:center;
+    }
+        
+    .pagedescription2{
+        width:100%;
+         text-align:center;
+        padding:0;
+        }   
+     
     #socialmediablock{
         width:100%;
         margin:auto;
@@ -415,14 +436,17 @@ align-content: center;
     .button{
         width:85%;
         padding:20px;
+        margin-bottom:50px;
     }
     hr{
         display:none;
     }
     
     .imgpage{
-        width:40%;'
-         height:70px;
+        width:100%;'
+         height:80px;
+        margin-bottom:50px;
+        
          }
     
     #contacthead{
@@ -445,6 +469,7 @@ align-content: center;
     height:60px;
 
 }
+
 
 @media only screen and (min-width:768px) and (max-width:959px)
 {
