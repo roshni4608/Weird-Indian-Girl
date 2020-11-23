@@ -74,7 +74,19 @@ p
     line-height: 1.8;
 }
 
+ol{
+    float:left;
+    width:100%;
+    display:block;
+    font-family: 'Schoolbell', cursive;
+    font-size: 15pt;;
+    line-height: 1.8;
+}
 
+footer{
+    margin-top:200px;
+    
+}
 
 
 /********* Home Page Page Preview Blocks *************/
@@ -91,7 +103,6 @@ p
     width:50%;
     float:right;
     padding-left:40px;
-    padding-bottom: 50px;
 }
 
 .pageblock{
@@ -108,8 +119,8 @@ p
     width:100%;
     margin:auto;
     padding:20px;
-    padding-bottom:100px;
-    padding-top:100px;
+    padding-bottom:150px;
+    padding-top:90px;
     float:right;
 }
 
@@ -159,30 +170,28 @@ td{
 
 
 form{
-    width:80%;
+    width:50%;
     margin:auto;
-    padding:5%;
 }
 label{
-    float:left;
-    width:80%;
+    width:40%;
+    margin:auto;
     font-size:1.2em;
 }
 
 /* Form Fields*/
 input{
-    height:50px;
-    width:30%;
+    height:40px;
+    width:50%;
 }
 
 textarea
 {
     height:400px;;
-    width:60%;
+    width:100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size:1em;
     color:grey;
-    padding:10px;
 }
 #formbutton{
     font-size:14pt;
@@ -445,6 +454,7 @@ align-content: center;
         width:100%;'
          height:80px;
         margin-bottom:50px;
+        margin-top:100px;
         
          }
     
