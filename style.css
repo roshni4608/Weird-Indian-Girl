@@ -450,6 +450,10 @@ align-content: center;
         font-size:14pt;
         text-align:left;
     }  
+     ol{
+          font-size:14pt;
+         text-align:left;
+    }
     
         form {
     width:100%; 
@@ -551,6 +555,10 @@ label{
 {
      p{
         font-size:12pt;
+        text-align:left;
+    }
+    ol{
+          font-size:12pt;
         text-align:left;
     }
     
@@ -684,6 +692,10 @@ textarea
         text-align:left;
     }
     
+     ol{
+          font-size:12pt;
+         text-align:left;
+    }
     thead{
     border: none;
     overflow: hidden;
@@ -817,6 +829,10 @@ textarea
     p{
         font-size:12pt;
         text-align:left;
+    }
+     ol{
+          font-size:12pt;
+         text-align:left;
     }
     .pageblock3{
     margin-top:0;
