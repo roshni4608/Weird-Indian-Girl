@@ -683,13 +683,15 @@ textarea
         font-size:10pt;
         text-align:left;
     }
-       thead{
+    
+    thead{
     border: none;
     overflow: hidden;
     padding: 0;
     position: absolute;
     width: 1px;
     }
+    
       td{
     border-bottom: 1px solid #ddd;
     display: block;
