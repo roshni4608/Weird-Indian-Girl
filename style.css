@@ -547,7 +547,7 @@ label{
 @media only screen and (min-width:768px) and (max-width:959px)
 {
      p{
-        font-size:14pt;
+        font-size:10pt;
         text-align:left;
     }
     
@@ -677,7 +677,7 @@ textarea
 @media only screen and (max-width:767px)
 {
      p{
-        font-size:12pt;
+        font-size:10pt;
         text-align:left;
     }
        thead{
