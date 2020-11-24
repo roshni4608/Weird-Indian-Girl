@@ -376,6 +376,7 @@ textarea
 #headtext{
     margin-left:100px;
     margin-top:0;
+    font-family:'Schoolbell', cursive;
 }
 
 
@@ -498,6 +499,7 @@ label{
         margin-left:45%;
     }
     #headtext{
+        font-family:'Schoolbell', cursive;
         font-size:1.5em;
         margin-left:42%;
     }
@@ -612,6 +614,7 @@ textarea
     #headtext{
         font-size:1.5em;
         margin-left:40%;
+        font-family:'Schoolbell', cursive;
     }
     .mainbody
     { 
@@ -727,11 +730,12 @@ textarea
     }
      #headlogo{
         width:20%;
-        margin-left:25%;
+        margin-left:40%;
     }
     #headtext{
         font-size:1.5em;
         margin-left:40%;
+        font-family:'Schoolbell', cursive;
     }
      .mainbody
     { 
@@ -940,6 +944,7 @@ label{
     }
     #headtext{
         margin-left:30%;
+        font-family:'Schoolbell', cursive;
     }
     form{
         padding:0;
