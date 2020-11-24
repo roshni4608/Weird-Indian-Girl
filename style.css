@@ -270,7 +270,7 @@ textarea
 
 #contactbutton{
     width:40%;
-    margin-left:20%;
+    margin-left:30%;
     display: block;
   margin-bottom:100px;
     margin-top:20px;
@@ -373,9 +373,6 @@ textarea
 
 /******** Connect with Me Footer *************/
 
-footer{
-    padding:5%;
-}
 
 #contacthead{
 
@@ -384,13 +381,18 @@ align-content: center;
 }
 
 .socialmedia{
-    margin:5%;
+    margin:4.5%;
+    margin-left:0;
+    
 }
 
 #socialmediablock{
-    width:70%;
+    width:50%;
     margin:auto;
+    margin-left:37%;
+    
 }
+
 
 
 /******** Mobile Menu *************/
@@ -448,9 +450,9 @@ align-content: center;
     width:100%; 
     
 }
-label{
-    width:85%;
-}
+    label{
+        width:85%;
+    }
     
       .column {
     flex: 50%;
@@ -492,7 +494,7 @@ label{
      
     #socialmediablock{
         width:100%;
-        margin:auto;
+        margin-left:28%;
     }
      #headlogo{
         width:10%;
@@ -538,7 +540,7 @@ label{
     }
 }
     .socialmedia{
-    height:60px;
+    height:50px;
 
 }
 
@@ -677,6 +679,10 @@ textarea
 
     }
     
+    #socialmediablock{
+        margin-left:25%;
+    }
+    
     .pageblock{
         align-content: center;
         padding:0;
@@ -692,6 +698,7 @@ textarea
     #contactbutton{
         width:100%;
         margin:0;
+        margin-bottom:50px;
     }
 
     
@@ -814,7 +821,9 @@ textarea
     #contactbutton{
         width:100%;
         margin:0;
+        margin-bottom:50px;
     }
+    
     .hvrbox{
         display: none;
     }
@@ -823,10 +832,16 @@ textarea
         width:20%;
         margin-bottom:-8%;
     }
+    
     .socialmedia{
-    height:20px;
+    height:30px;
 
-}
+    }
+    
+    #socialmediablock{
+        margin-left:22%;
+    }
+    
     .pageblock{
         align-content: center;
         padding:0;
@@ -847,6 +862,7 @@ textarea
 /* mobile portrait layout (479px or less) */
 @media only screen and (max-width: 479px)
 {
+    
     p{
         font-size:12pt;
         text-align:left;
