@@ -427,6 +427,10 @@ align-content: center;
 /*********** Media Queries **************/
 
 @media only screen and (min-width:960px) and (max-width:1500px){
+      .column {
+    flex: 50%;
+    max-width: 50%;
+  }
     #nav_menu { 
         /* hide desktop menu*/ 
         display:none;
@@ -473,9 +477,7 @@ align-content: center;
         padding:20px;
         margin-bottom:50px;
     }
-    hr{
-        display:none;
-    }
+
     
     .imgpage{
         width:100%;'
@@ -509,7 +511,13 @@ align-content: center;
 
 @media only screen and (min-width:768px) and (max-width:959px)
 {
-    
+     .hvrbox{
+        display: none;
+    }
+    .column {
+    flex: 50%;
+    max-width: 50%;
+  }
     #nav_menu { 
         /* hide desktop menu*/ 
         display:none;
@@ -601,9 +609,6 @@ align-content: center;
         padding:0;
     }
 
-hr{
-    display:none;
-}
 
     
 }
@@ -611,6 +616,10 @@ hr{
 /* mobile landscape layout (480px to 767px) */ 
 @media only screen and (max-width:767px)
 {
+     .column {
+    flex: 100%;
+    max-width: 100%;
+  }
     
      #nav_menu { 
         /* hide desktop menu*/ 
@@ -672,17 +681,8 @@ hr{
         
     }
     
-    .hvrbox img {
-        height:250px;
-    }
-    
-    #hoverhead{
-    color:white;
-    font-size:30pt;
-}
-    
-    .hvrbox .hvrbox-text{
-        font-size:10pt;
+    .hvrbox{
+        display: none;
     }
     
     #webtoonlogo{
@@ -703,15 +703,19 @@ hr{
         padding:0;
     }
 
-hr{
-    display:none;
-}
     
 }
 
 /* mobile portrait layout (479px or less) */
 @media only screen and (max-width: 479px)
 {
+     .hvrbox{
+        display: none;
+    }
+     .column {
+    flex: 100%;
+    max-width: 100%;
+  }
      #nav_menu { 
         /* hide desktop menu*/ 
         display:none;
@@ -762,12 +766,11 @@ hr{
     }
     
     .hvrbox img {
-        height:400px;
+        display:none;
     }
     
     #hoverhead{
-    color:white;
-    font-size:40pt;
+  display:none;
 }
     
     .hvrbox .hvrbox-text{
@@ -792,9 +795,6 @@ hr{
         padding:0;
     }
 
-hr{
-    display:none;
-}
 
 }
 
