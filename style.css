@@ -680,7 +680,7 @@ textarea
 @media only screen and (max-width:767px)
 {
      p{
-        font-size:10pt;
+        font-size:12pt;
         text-align:left;
     }
     
@@ -815,7 +815,7 @@ textarea
 @media only screen and (max-width: 479px)
 {
     p{
-        font-size:10pt;
+        font-size:12pt;
         text-align:left;
     }
     .pageblock3{
