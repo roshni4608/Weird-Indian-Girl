@@ -63,7 +63,6 @@ h1{
     color: mediumpurple;
     line-height: 0.8;
      width:100%;
-    margin:center;
 }
 
 
@@ -100,16 +99,13 @@ footer{
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
@@ -300,7 +296,7 @@ textarea
     margin:auto;
     height: 450px; /* height of container */
     object-fit: cover;
-    object-position: center middle;
+    object-position: center;
     opacity: 0.9;
 }
 .hvrbox .hvrbox-layer_bottom {
@@ -318,9 +314,6 @@ textarea
 	background: rgba(0, 0, 0, 0.6);
 	color: #fff;
 	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
 }
 .hvrbox:hover .hvrbox-layer_top,
@@ -333,15 +326,11 @@ textarea
 	display: inline-block;
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	left: 50%;;
 	transform: translate(-50%, -50%);
 }
 .hvrbox .hvrbox-text_mobile {
 	font-size: 15px;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
 	border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
 	padding-top: 2px;
@@ -512,14 +501,13 @@ label{
     }
     
     .button{
-        width:%;
         padding-top:20px;
         margin-bottom:50px;
 
     }
 
     .imgpage{
-        width:100%;'
+        width:100%;
          height:80px;
         margin-bottom:50px;
         
@@ -634,24 +622,23 @@ textarea
     }
     
     .imgpage{
-        width:100%;'
+        width:100%;
         
     }
     
     #imgpage3{
-     width:100%;'
+     width:100%;
         padding:0;
         margin:0;
     }
     .pagedescription{
         width:100%;
-         text-align:center;
+        text-align:center;
     }
         
     .pagedescription2{
         width:100%;
-         text-align:center;
-        padding:0;
+        text-align:center;
         }    
     
     h1{
@@ -761,25 +748,24 @@ textarea
     }
     
     .imgpage{
-        width:100%;'
+        width:100%;
         
     }
     
     #imgpage3{
-     width:100%;'
+     width:100%;
         padding:0;
         margin:0;
     }
+    
     .pagedescription{
         width:100%;
          text-align:center;
-           padding:0;
     }
         
     .pagedescription2{
         width:100%;
          text-align:center;
-        padding:0;
         }    
     
     h1{
@@ -899,7 +885,7 @@ label{
     }
     
     #imgpage3{
-     width:100%;'
+     width:100%;
         padding:0;
         margin:0;
         height:100px;
@@ -908,13 +894,11 @@ label{
     .pagedescription{
         width:100%;
          text-align:center;
-         padding:0;
     }
         
     .pagedescription2{
         width:100%;
          text-align:center;
-        padding:0;
         }    
     
     h1{
