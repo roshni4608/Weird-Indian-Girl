@@ -74,6 +74,7 @@ p
     line-height: 1.8;
 }
 
+
 ol{
     float:left;
     width:100%;
@@ -81,6 +82,7 @@ ol{
     font-family: 'Schoolbell', cursive;
     font-size: 15pt;;
     line-height: 1.8;
+    margin-top:0;
 }
 
 footer{
@@ -88,6 +90,9 @@ footer{
     
 }
 
+#contactmeh1{
+    margin-top:200px;
+}
 
 /********* Gallery *************/
 * {
@@ -225,6 +230,7 @@ textarea
     width:200px;
     padding-bottom:34px;
     float:right;
+    margin-bottom:100px;
 }
 /******************** Buttons **********************/
 
@@ -255,9 +261,8 @@ textarea
 }
 
 #contactbutton{
-    width:20%;
-       margin:auto;
-    margin-left:35%;
+    width:40%;
+    margin-left:20%;
     display: block;
   margin-bottom:100px;
     margin-top:20px;
@@ -427,6 +432,13 @@ align-content: center;
 /*********** Media Queries **************/
 
 @media only screen and (min-width:960px) and (max-width:1500px){
+        form{
+    width:100%;
+}
+label{
+    width:85%;
+}
+    
       .column {
     flex: 50%;
     max-width: 50%;
@@ -438,6 +450,7 @@ align-content: center;
      #mobile_menu {
          /* show mobile menu*/ 
         display:block;
+         margin-bottom:50px;
     }
       .pageblock{
         align-content: center;
@@ -451,6 +464,7 @@ align-content: center;
     .pagedescription{
         width:100%;
          text-align:center;
+        padding:0;
     }
         
     .pagedescription2{
@@ -465,7 +479,7 @@ align-content: center;
     }
      #headlogo{
         width:10%;
-        margin-left:35%;
+        margin-left:45%;
     }
     #headtext{
         font-size:1.5em;
@@ -473,17 +487,16 @@ align-content: center;
     }
     
     .button{
-        width:85%;
-        padding:20px;
+        width:%;
+        padding-top:20px;
         margin-bottom:50px;
+
     }
 
-    
     .imgpage{
         width:100%;'
          height:80px;
         margin-bottom:50px;
-        margin-top:100px;
         
          }
     
@@ -492,6 +505,10 @@ align-content: center;
     }
       .hvrbox img {
         height:400px;
+
+    }
+    .hvrbox{
+        margin-bottom: 50px;
     }
     
     #hoverhead{
@@ -511,6 +528,21 @@ align-content: center;
 
 @media only screen and (min-width:768px) and (max-width:959px)
 {
+    form{
+    width:90%;
+}
+label{
+    width:80%;
+}
+
+textarea
+{
+    height:400px;;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+    color:grey;
+}
      .hvrbox{
         display: none;
     }
@@ -526,14 +558,14 @@ align-content: center;
          /* show mobile menu*/ 
         display:block;
          
-        padding-bottom:10px;
+        padding-bottom:80px;
     }
      #socialmediablock{
         width:100%;
     }
     #headlogo{
         width:15%;
-        margin-left:30%;
+        margin-left:43%;
     }
     #headtext{
         font-size:1.5em;
@@ -573,28 +605,11 @@ align-content: center;
     .button{
         margin-bottom:9%;
         margin-top:2%;
-        width:90%;
+        width:40%;
         padding:20px;
         
     }
-    
-    .hvrbox img {
-        height:400px;
-    }
-    
-    #hoverhead{
-    color:white;
-    font-size:40pt;
-}
-    
-    .hvrbox .hvrbox-text{
-        font-size:10pt;
-    }
-    
-    #webtoonlogo{
-        width:20%;
-        margin-bottom:-8%;
-    }
+
     .socialmedia{
     height:40px;
 
@@ -607,8 +622,8 @@ align-content: center;
     .pageblock2{
         align-content: center;
         padding:0;
+        margin:0;
     }
-
 
     
 }
@@ -616,6 +631,16 @@ align-content: center;
 /* mobile landscape layout (480px to 767px) */ 
 @media only screen and (max-width:767px)
 {
+        #mypic{
+        height:200px;
+       margin-top:-20px;
+}
+        form{
+    width:90%;
+}
+label{
+    width:80%;
+}
      .column {
     flex: 100%;
     max-width: 100%;
@@ -629,7 +654,7 @@ align-content: center;
          /* show mobile menu*/ 
         display:block;
          
-        padding-bottom:10px;
+        padding-bottom:30px;
     }
       #socialmediablock{
         width:100%;
@@ -661,6 +686,7 @@ align-content: center;
     .pagedescription{
         width:100%;
          text-align:center;
+           padding:0;
     }
         
     .pagedescription2{
@@ -696,11 +722,12 @@ align-content: center;
     .pageblock{
         align-content: center;
         padding:0;
-        margin-right:0;
+        margin:0;
     }
     .pageblock2{
         align-content: center;
         padding:0;
+        margin:0;
     }
 
     
@@ -709,6 +736,19 @@ align-content: center;
 /* mobile portrait layout (479px or less) */
 @media only screen and (max-width: 479px)
 {
+        form{
+    width:100%;
+}
+label{
+    width:100%;
+}
+    input{
+    height:40px;
+    width:100%;
+}
+    textarea{
+        height:200px;
+    }
      .hvrbox{
         display: none;
     }
@@ -724,7 +764,7 @@ align-content: center;
          /* show mobile menu*/ 
         display:block;
          
-        padding-bottom:10px;
+        padding-bottom:50px;
     }
       .mainbody
     { 
@@ -733,7 +773,8 @@ align-content: center;
     }
     
     .imgpage{
-        width:100%;'
+        width:100%;
+        height:100px;
         
     }
     
@@ -741,10 +782,17 @@ align-content: center;
      width:100%;'
         padding:0;
         margin:0;
+        height:100px;
     }
+    
+    #mypic{
+        height:200px;
+       margin-top:-100px;
+}
     .pagedescription{
         width:100%;
          text-align:center;
+         padding:0;
     }
         
     .pagedescription2{
@@ -754,14 +802,24 @@ align-content: center;
         }    
     
     h1{
-        margin-top:10%;
+        font-size:22pt;
         text-align:center;
+    }
+    
+    p{
+        font-size:16pt;
+        line-height:1.2;
     }
     .button{
         margin-bottom:9%;
         margin-top:2%;
-        width:90%;
-        padding:20px;
+        width:80%;
+        padding:10px;
+        
+    }
+    #contactbutton{
+        width:80%;
+        margin:0;
         
     }
     
@@ -769,20 +827,9 @@ align-content: center;
         display:none;
     }
     
-    #hoverhead{
-  display:none;
-}
-    
-    .hvrbox .hvrbox-text{
-        font-size:10pt;
-    }
-    
-    #webtoonlogo{
-        width:20%;
-        margin-bottom:-8%;
-    }
+
     .socialmedia{
-    height:30px;
+    height:15px;
 
 }
     .pageblock{
@@ -795,6 +842,12 @@ align-content: center;
         padding:0;
     }
 
+    #headlogo{
+        margin-left:40%;
+    }
+    #headtext{
+        margin-left:30%;
+    }
 
 }
 
