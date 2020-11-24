@@ -156,6 +156,15 @@ footer{
     float:right;
 }
 
+
+.pageblock3{
+    display:block;
+    width:100%;
+    margin:auto;
+        padding:20px;
+    padding-bottom:150px;
+}
+
 .imgpage{
     width: 40%; /* width of container */
     height: 300px; /* height of container */
@@ -785,10 +794,6 @@ label{
         height:100px;
     }
     
-    #mypic{
-        height:200px;
-       margin-top:-100px;
-}
     .pagedescription{
         width:100%;
          text-align:center;
@@ -813,13 +818,14 @@ label{
     .button{
         margin-bottom:9%;
         margin-top:2%;
-        width:80%;
+        width:100%;
         padding:10px;
         
     }
     #contactbutton{
-        width:80%;
+        width:100%;
         margin:0;
+        margin-bottom:25px;
         
     }
     
@@ -840,6 +846,7 @@ label{
     .pageblock2{
         align-content: center;
         padding:0;
+        margin-top:0;
     }
 
     #headlogo{
@@ -848,6 +855,10 @@ label{
     #headtext{
         margin-left:30%;
     }
-
+    form{
+        padding:0;
+        margin-top:-100px;
+    }
+    
 }
 
