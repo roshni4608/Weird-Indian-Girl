@@ -441,6 +441,9 @@ align-content: center;
 /*********** Media Queries **************/
 
 @media only screen and (min-width:960px) and (max-width:1500px){
+    
+    
+    
         form{
     width:100%;
 }
@@ -537,6 +540,28 @@ label{
 
 @media only screen and (min-width:768px) and (max-width:959px)
 {
+    
+    thead{
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    }
+      td{
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: left;
+    }
+    
+     tr{
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+    }
+    
+    
     form{
     width:90%;
 }
@@ -640,16 +665,36 @@ textarea
 /* mobile landscape layout (480px to 767px) */ 
 @media only screen and (max-width:767px)
 {
-        #mypic{
-        height:200px;
-       margin-top:-20px;
-}
+       thead{
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    }
+      td{
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: left;
+    }
+    
+     tr{
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+    }
+  
+    #mypic{
+    height:200px;
+    margin-top:-20px;
+    }
         form{
     width:90%;
 }
-label{
-    width:80%;
-}
+    label{
+        width:80%;
+    }
      .column {
     flex: 100%;
     max-width: 100%;
@@ -745,6 +790,25 @@ label{
 /* mobile portrait layout (479px or less) */
 @media only screen and (max-width: 479px)
 {
+       thead{
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    }
+      td{
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: left;
+    }
+    
+     tr{
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+    }
         form{
     width:100%;
 }
