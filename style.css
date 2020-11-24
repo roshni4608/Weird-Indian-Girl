@@ -468,22 +468,26 @@ label{
       .pageblock{
         align-content: center;
         padding:0;
-        margin-right:0;
+         padding:0;
+        margin:0;
     }
     .pageblock2{
         align-content: center;
         padding:0;
+        margin:0;
     }
     .pagedescription{
         width:100%;
          text-align:center;
         padding:0;
+        margin:0;
     }
         
     .pagedescription2{
         width:100%;
          text-align:center;
         padding:0;
+          margin:0;
         }   
      
     #socialmediablock{
@@ -508,7 +512,7 @@ label{
 
     .imgpage{
         width:100%;
-         height:80px;
+         height:300px;
         margin-bottom:50px;
         
          }
@@ -634,11 +638,15 @@ textarea
     .pagedescription{
         width:100%;
         text-align:center;
+         padding:0;
+          margin:0;
     }
         
     .pagedescription2{
         width:100%;
         text-align:center;
+         padding:0;
+          margin:0;
         }    
     
     h1{
@@ -761,11 +769,15 @@ textarea
     .pagedescription{
         width:100%;
          text-align:center;
+         padding:0;
+          margin:0;
     }
         
     .pagedescription2{
         width:100%;
          text-align:center;
+         padding:0;
+          margin:0;
         }    
     
     h1{
@@ -894,11 +906,15 @@ label{
     .pagedescription{
         width:100%;
          text-align:center;
+         padding:0;
+          margin:0;
     }
         
     .pagedescription2{
         width:100%;
          text-align:center;
+         padding:0;
+          margin:0;
         }    
     
     h1{
@@ -938,7 +954,7 @@ label{
     .pageblock2{
         align-content: center;
         padding:0;
-        margin-top:0;
+        margin:0;
     }
 
     #headlogo{
