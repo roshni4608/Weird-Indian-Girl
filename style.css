@@ -675,17 +675,20 @@ textarea
     .socialmedia{
     height:40px;
 
-}
+    }
+    
     .pageblock{
         align-content: center;
         padding:0;
         margin-right:0;
     }
+    
     .pageblock2{
         align-content: center;
         padding:0;
         margin:0;
     }
+    
     #contactbutton{
         width:100%;
         margin:0;
