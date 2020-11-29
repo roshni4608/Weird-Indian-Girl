@@ -550,6 +550,7 @@ align-content: center;
 
 @media only screen and (min-width:768px) and (max-width:959px)
 {
+    
      p{
         font-size:12pt;
         text-align:left;
@@ -604,7 +605,8 @@ textarea
     .column {
     flex: 50%;
     max-width: 50%;
-  }
+    }
+    
     
     #nav_menu { 
         /* hide desktop menu*/ 
@@ -710,6 +712,8 @@ textarea
 /* mobile landscape layout (480px to 767px) */ 
 @media only screen and (max-width:767px)
 {
+    
+    
      p{
         font-size:12pt;
         text-align:left;
@@ -754,6 +758,12 @@ textarea
     flex: 100%;
     max-width: 100%;
   }
+    
+    
+     .galleryimg{
+        width:100%;
+        }
+    
     
      #nav_menu { 
         /* hide desktop menu*/ 
@@ -914,7 +924,7 @@ label{
     }
      .column {
     flex: 100%;
-    max-width: 100%;
+    width: 100%;
   }
      #nav_menu { 
         /* hide desktop menu*/ 
