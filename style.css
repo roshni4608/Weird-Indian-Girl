@@ -393,7 +393,7 @@ align-content: center;
 }
 
 #socialmediablock{
-     height: 10em;
+  height: 8em;
   display: flex;
   align-items: center;
   justify-content: center; 
