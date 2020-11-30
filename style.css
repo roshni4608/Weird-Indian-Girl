@@ -143,7 +143,7 @@ a{
     margin:auto;
     padding:20px;
     padding-bottom:100px;
-    padding-top:100px;
+    padding-top:130px;
 }
 
 .pageblock2{
@@ -151,7 +151,7 @@ a{
     width:100%;
     margin:auto;
     padding:20px;
-    padding-bottom:150px;
+    padding-bottom:130px;
     float:right;
 }
 
@@ -166,7 +166,7 @@ a{
 }
 
 .imgpage{
-    width: 40%; /* width of container */
+    width: 45%; /* width of container */
     height: 300px; /* height of container */
     object-fit: cover;
     object-position: top;
