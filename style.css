@@ -410,7 +410,7 @@ align-content: center;
         display:none;
         width:100%;
         float:right;
-        font-family: 'Indie Flower', cursive;
+     font-family: sans-serif;
      font-size:18pt;
     }
 
@@ -418,31 +418,35 @@ align-content: center;
     {
         text-align:center;
         text-transform:uppercase;
-        background-color: transparent;
+             padding-bottom:10px;
+     
     }
 
  #mobile_menu li a
     {
-        font-size:16pt;
+        font-size:12pt;
         width:100%;
         text-align:center;
         margin: 0 auto;
         padding: 15px;
-        margin-left:-15px;
-        font-family: 'Schoolbell', cursive; 
+        font-family: sans-serif;
     }
  
     #mobile_menu ul li a:hover
     { 
         
-    background-color: mediumpurple;
+    background-color: limegreen;
         color:white;
 
     }
 
+
+}
+
+
 /*********** Media Queries **************/
 
-@media only screen and (min-width:960px) and (max-width:1350px){
+@media screen and (min-width:960px) and (max-width:1350px){
     
     p{
         font-size:14pt;
@@ -452,6 +456,7 @@ align-content: center;
           font-size:14pt;
          text-align:left;
     }
+    
     
         form {
     width:100%; 
@@ -465,15 +470,7 @@ align-content: center;
     flex: 50%;
     max-width: 50%;
   }
-    #nav_menu { 
-        /* hide desktop menu*/ 
-        display:none;
-    }
-     #mobile_menu {
-         /* show mobile menu*/ 
-        display:block;
-         margin-bottom:50px;
-    }
+    
       .pageblock{
         align-content: center;
         padding:0;
@@ -549,7 +546,7 @@ align-content: center;
 }
 
 
-@media only screen and (min-width:768px) and (max-width:959px)
+@media only screen and (min-width:768px) and (max-width:1350px)
 {
     
      p{
@@ -617,8 +614,7 @@ textarea
      #mobile_menu {
          /* show mobile menu*/ 
         display:block;
-         
-        padding-bottom:80px;
+         padding-bottom: 50px;
     }
     
     
