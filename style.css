@@ -66,8 +66,7 @@ h1{
 }
 
 
-p
-{
+p{
     font-family: sans-serif;
     font-size: 14pt;
     line-height: 1.3;
@@ -200,9 +199,11 @@ tr{
     font-family: sans-serif;
     font-size:13pt;
 }
+
 .description{
     font-weight:bold;
 }
+
 td{
     padding:10px;
 }
@@ -265,6 +266,7 @@ textarea
     margin-right:20px;
 
 }
+
 .button:hover{
     border:3px solid mediumpurple;
     color:mediumpurple;
@@ -468,7 +470,7 @@ align-content: center;
         form {
     width:100%; 
     
-}
+    }
     label{
         width:85%;
     }
@@ -476,7 +478,7 @@ align-content: center;
       .column {
     flex: 50%;
     max-width: 50%;
-  }
+     }
 
       .pageblock{
         align-content: center;
@@ -594,14 +596,14 @@ align-content: center;
         width:80%;
     }
 
-textarea
-{
+    textarea
+    {
     height:400px;;
     width:100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size:1em;
     color:grey;
-}
+    }
     
      .hvrbox{
         display: none;
@@ -742,7 +744,8 @@ textarea
     height:200px;
     margin-top:-20px;
     }
-        form{
+    
+    form{
     width:90%;
     }
     
@@ -753,10 +756,9 @@ textarea
      .column {
     flex: 100%;
     max-width: 100%;
-  }
+    }
     
-    
-     .galleryimg{
+    .galleryimg{
         width:100%;
         }
     
@@ -778,11 +780,13 @@ textarea
         width:20%;
         margin-left:40%;
     }
+    
     #headtext{
         font-size:1.5em;
         margin-left:40%;
         font-family:'Schoolbell', cursive;
     }
+    
      .mainbody
     { 
         width:85%;
@@ -847,18 +851,18 @@ textarea
 
     }
     
-
-    
     .pageblock{
         align-content: center;
         padding:0;
         margin:0;
     }
+    
     .pageblock2{
         align-content: center;
         padding:0;
         margin:0;
     }
+    
     .pageblock3{
     margin-top:0;
     }
@@ -874,13 +878,16 @@ textarea
         font-size:12pt;
         text-align:left;
     }
+    
      ol{
           font-size:12pt;
          text-align:left;
     }
+    
     .pageblock3{
     margin-top:0;
     }
+    
        thead{
     border: none;
     overflow: hidden;
@@ -888,6 +895,7 @@ textarea
     position: absolute;
     width: 1px;
     }
+    
       td{
     border-bottom: 1px solid #ddd;
     display: block;
@@ -900,36 +908,44 @@ textarea
     display: block;
     margin-bottom: .625em;
     }
-        form{
+    
+    form{
     width:100%;
-}
-label{
-    width:100%;
-}
+    }
+    
+    label{
+        width:100%;
+    }
+    
     input{
     height:40px;
     width:100%;
-}
+    }
+    
     textarea{
         height:200px;
     }
+    
      .hvrbox{
         display: none;
     }
+    
      .column {
     flex: 100%;
     width: 100%;
-  }
+    }
+    
      #nav_menu { 
         /* hide desktop menu*/ 
         display:none;
     }
+    
      #mobile_menu {
          /* show mobile menu*/ 
         display:block;
-         
         padding-bottom:50px;
     }
+    
       .mainbody
     { 
         width:85%;
@@ -997,6 +1013,7 @@ label{
         padding:0;
         margin-right:0;
     }
+    
     .pageblock2{
         align-content: center;
         padding:0;
@@ -1006,10 +1023,12 @@ label{
     #headlogo{
         margin-left:40%;
     }
+    
     #headtext{
         margin-left:30%;
         font-family:'Schoolbell', cursive;
     }
+    
     form{
         padding:0;
         margin-top:-100px;
