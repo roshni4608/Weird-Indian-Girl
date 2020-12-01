@@ -505,16 +505,24 @@ align-content: center;
           margin:0;
         }   
      
-
-     #headlogo{
+    #headlogo{
         width:10%;
-        margin-left:45%;
+         margin-left:45%;
+      display: flex;
+         align-content: center;
+         justify-items: center;
+         
     }
+    
     #headtext{
+        margin-left:0;
         font-family:'Schoolbell', cursive;
         font-size:1.5em;
-        margin-left:42%;
+        display: flex;
+        justify-content: center;
+        
     }
+    
     
     .button{
         padding-top:20px;
@@ -574,6 +582,7 @@ align-content: center;
     position: absolute;
     width: 1px;
     }
+    
       td{
     border-bottom: 1px solid #ddd;
     display: block;
@@ -628,16 +637,24 @@ align-content: center;
     }
     
     
-    #headlogo{
-        width:15%;
-        margin-left:43%;
+     #headlogo{
+        width:10%;
+         margin-left:45%;
+      display: flex;
+         align-content: center;
+         justify-items: center;
+         
     }
     
     #headtext{
-        font-size:1.5em;
-        margin-left:40%;
+        margin-left:0;
         font-family:'Schoolbell', cursive;
+        font-size:1.5em;
+        display: flex;
+        justify-content: center;
+        
     }
+    
     
     .mainbody
     { 
@@ -774,17 +791,23 @@ align-content: center;
          
         padding-bottom:30px;
     }
-    
    
      #headlogo{
-        width:20%;
-        margin-left:40%;
+        width:15%;
+         margin-left:43%;
+      display: flex;
+         align-content: center;
+         justify-items: center;
+         
     }
     
     #headtext{
-        font-size:1.5em;
-        margin-left:40%;
+        margin-left:0;
         font-family:'Schoolbell', cursive;
+        font-size:1.3em;
+        display: flex;
+        justify-content: center;
+        
     }
     
      .mainbody
@@ -1020,14 +1043,24 @@ align-content: center;
         margin:0;
     }
 
-    #headlogo{
-        margin-left:40%;
+ #headlogo{
+        width:20%;
+         margin-left:40%;
+      display: flex;
+         align-content: center;
+         justify-items: center;
+         
     }
     
     #headtext{
-        margin-left:30%;
+        margin-left:0;
         font-family:'Schoolbell', cursive;
+        font-size:0.9em;
+        display: flex;
+        justify-content: center;
+        
     }
+    
     
     form{
         padding:0;
