@@ -428,6 +428,7 @@ align-content: center;
         text-align:center;
         margin: 0 auto;
         padding: 15px;
+        margin-bottom:10px;
     }
  
     #mobile_menu ul li a:hover
