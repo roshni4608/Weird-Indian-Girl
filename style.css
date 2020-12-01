@@ -596,6 +596,9 @@ align-content: center;
     margin-bottom: .625em;
     }
     
+    #readcomic{
+        margin-top:-35px;
+    }
     
     form{
     width:90%;
