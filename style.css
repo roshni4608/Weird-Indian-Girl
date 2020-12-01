@@ -898,7 +898,7 @@ align-content: center;
 {
     
     p{
-        font-size:12pt;
+        font-size:10pt;
         text-align:left;
     }
     
@@ -1061,7 +1061,6 @@ align-content: center;
         justify-content: center;
         
     }
-    
     
     form{
         padding:0;
