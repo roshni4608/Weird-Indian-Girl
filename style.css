@@ -658,7 +658,6 @@ align-content: center;
         
     }
     
-    
     .mainbody
     { 
         width:85%;
@@ -739,6 +738,11 @@ align-content: center;
           font-size:12pt;
          text-align:left;
     }
+    
+      #readcomic{
+        margin-top:-8px;
+    }
+    
     thead{
     border: none;
     overflow: hidden;
