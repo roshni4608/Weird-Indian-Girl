@@ -966,18 +966,18 @@ align-content: center;
     width: 100%;
     }
     
-     #nav_menu { 
+    #nav_menu { 
         /* hide desktop menu*/ 
         display:none;
     }
     
-     #mobile_menu {
+    #mobile_menu {
          /* show mobile menu*/ 
         display:block;
         padding-bottom:50px;
     }
     
-      .mainbody
+    .mainbody
     { 
         width:85%;
         margin:auto;
