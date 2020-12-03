@@ -15,35 +15,93 @@ Tested: December 1, 2020; Passed on Firefox, Chrome, and Safari browsers.
 
 #nav_menu{
     float:right;
+     z-index: 100000000000000;
 }
 
 #nav_menu ul{
   list-style-type: none;
     padding:20px;
-    padding-bottom:10%;
+    padding-bottom:5%;
     padding-right:40px;
+    position: relative;
+     z-index: 100000000000000;
 }
 
 #nav_menu li {
 
   float: left;
+     z-index: 100000000000000;
 }
 
 
 #nav_menu li a {
   display: block;
-  padding: 15px;   
+  padding: 15px;
   text-decoration: none;
   font-family: helvetica,Arial, sans-serif;
   font-size:1.2em;
   color:dimgrey;
+     z-index: 100000000000000;
 }
+
 
 #nav_menu li a:hover{
     color:limegreen;
 }
 
+.lv12 a:hover{
+    color:white;
+}
 
+
+#nav_menu ul ul {
+    display: none;
+    top:100%;
+    position: absolute;
+}
+
+#nav_menu ul ul li { 
+    float: none; 
+}
+
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    z-index: 300000000;
+}
+
+
+#nav_menu > ul::after {
+    content: ""; display: block; 
+    clear: both; 
+}
+ 
+
+#nav_menu ul li:hover > ul { 
+    display: block; 
+    background-color:limegreen;
+    margin-top:-30px;
+    padding:10px;
+    padding-top:30px;
+    padding-bottom:50px;
+    color:white;
+} 
+
+#nav_menu a.comicnav {
+    color:white;
+    text-align: center;
+    padding-top:20px;
+    padding-right: 50px;
+    padding-left:50px;
+}
+
+#nav_menu a.comicnav:hover {
+    width:100%;
+    background-color:white;
+    color:limegreen;
+    text-align: center;
+}
 
 
 /********* Global Body Text *************/
@@ -324,6 +382,7 @@ textarea
 .hvrbox:hover .hvrbox-layer_top,
 .hvrbox.active .hvrbox-layer_top {
 	opacity: 1;
+ 
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
